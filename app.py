@@ -7,7 +7,6 @@ from plotly.subplots import make_subplots
 
 from optimizer import run
 
-
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(title='Battery optimisation', external_stylesheets=external_stylesheets)
